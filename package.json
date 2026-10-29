@@ -1,0 +1,13 @@
+{
+  "name": "feedback-system",
+  "version": "1.0.0",
+  "description": "Feedback System with three versions using Jenkins, Docker and Kubernetes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
